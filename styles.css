@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(189, 250, 212);
+}
+
+.flex-container{
+    border: 1px solid rgb(245, 238, 238);
+    background: rgb(255, 236, 255);
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    
+}
+
+.cards{
+    background: rgb(50, 122, 205);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border: 2px solid rgb(131, 128, 128);
+    border-radius: 10px  0px 50px 10px;
+    margin: 5px ;
+    box-shadow: 10px 10px 15px  rgb(247, 185, 247);
+}
+
+.card1{
+    background: rgb(243, 206, 137);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border: 2px solid rgb(131, 128, 128);
+    margin: 5px ;
+    order: 1;
+    flex-grow: 120;
+}
+
+.card2{
+    background: rgb(169, 199, 255);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+    line-height: 50px;
+    border: 2px solid rgb(131, 128, 128);
+    margin: 5px ;
+    order: 2;
+    flex-grow: 120;
+}
+
+.card3{
+    background: rgb(255, 193, 193);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    width: 240px;
+    height: 700px;
+    line-height: 120px;
+    border: 2px solid rgb(131, 128, 128);
+    margin: 5px ;
+    box-shadow: 10px 10px 15px  purple;
+    order: 3;
+    flex-grow: 120;
+}
+.card4{
+    background: rgb(255, 193, 193);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    height: 700px;
+    line-height: 120px;
+    border: 2px solid rgb(131, 128, 128);
+    margin: 5px ;
+    box-shadow: 10px 10px 15px  purple;
+    order: 4;
+    flex-grow: 80;
+}
+.card5{
+    background: rgb(178, 159, 248);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border: 2px solid rgb(131, 128, 128);
+    margin: 5px ;
+    order: 5;
+    flex-grow: 120;
+}
