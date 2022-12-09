@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: anabel17gr/repo3appweb:latest , anabel17gr/repo3appweb:${{github.event.pull_request.title}}
+          tags: anabel17gr/repoappweb:latest , anabel17gr/repoappweb:${{github.event.pull_request.title}}
